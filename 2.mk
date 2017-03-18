@@ -3,7 +3,7 @@
 BKDIR = /tmp/copia
 
 $(BKDIR): .
-	rsync -avz . $(BKDIR)
+	rsync -avz $< $@
 
 clean:
 	rm *~
