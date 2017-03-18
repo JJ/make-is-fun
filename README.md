@@ -1,3 +1,3 @@
 # make-is-fun
 
-A few funny recipes using make and makefiles
+A few funny recipes using make and makefiles that avoids WTFs.
