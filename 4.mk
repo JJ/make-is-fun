@@ -1,0 +1,3 @@
+.PHONY = commit
+
+commit:
