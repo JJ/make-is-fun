@@ -1,7 +1,7 @@
 .PHONY = commit
 
 status:
-	git status | grep -v "nothing to commit" && touch status
+	git status -s | grep . && touch status
 
 commit: status
 	rm status; @make -f 3.mk
