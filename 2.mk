@@ -1,6 +1,6 @@
 .PHONY: clean
 
-BKDIR := /tmp/copia
+BKDIR = /tmp/copia
 
 $(BKDIR): .
 	rsync -avz . $(BKDIR)
